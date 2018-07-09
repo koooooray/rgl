@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render form with tree input fields 1`] = `
+<div
+  className={undefined}
+>
+  <form>
+    <InputElement
+      changed={[Function]}
+      elementConfig={
+        Object {
+          "hasEmptyOption": true,
+          "options": Array [
+            Object {
+              "displayName": "United States of America",
+              "selected": false,
+              "supportedCountry": true,
+              "value": "usa",
+            },
+            Object {
+              "displayName": "Germany",
+              "selected": false,
+              "supportedCountry": true,
+              "value": "ger",
+            },
+            Object {
+              "displayName": "France",
+              "selected": false,
+              "supportedCountry": false,
+              "value": "fra",
+            },
+            Object {
+              "displayName": "United Kingdom",
+              "selected": false,
+              "supportedCountry": true,
+              "value": "uk",
+            },
+            Object {
+              "displayName": "Netherlands",
+              "selected": false,
+              "supportedCountry": false,
+              "value": "hol",
+            },
+            Object {
+              "displayName": "Canada",
+              "selected": false,
+              "supportedCountry": false,
+              "value": "can",
+            },
+          ],
+        }
+      }
+      elementType="select"
+      invalid={true}
+      label="Country of citizenship"
+      touched={false}
+      validationMessage="initial"
+      value=""
+    />
+    <InputElement
+      changed={[Function]}
+      elementConfig={
+        Object {
+          "checked": false,
+        }
+      }
+      elementType="toggle"
+      invalid={true}
+      label="Are you an accredited investor?"
+      touched={false}
+      validationMessage="initial"
+      value={false}
+    />
+    <InputElement
+      changed={[Function]}
+      elementConfig={
+        Object {
+          "checked": false,
+        }
+      }
+      elementType="toggle"
+      invalid={true}
+      label="Can you provide proof of identity?"
+      touched={false}
+      validationMessage="initial"
+      value={false}
+    />
+    <button
+      btnType="Success"
+      disabled={true}
+    >
+      VERIFY
+    </button>
+  </form>
+</div>
+`;

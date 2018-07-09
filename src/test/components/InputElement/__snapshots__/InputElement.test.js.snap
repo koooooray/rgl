@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly configured inputs 1`] = `""`;
+
+exports[`should skip not properly configured inputs 1`] = `""`;

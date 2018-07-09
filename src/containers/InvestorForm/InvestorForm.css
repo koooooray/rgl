@@ -1,0 +1,16 @@
+.InvestorForm {
+    margin: 30px auto;
+    width: 75%;
+    max-width: 800px;
+    min-width: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px seashell solid;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.InvestorForm form{
+    width: 100%;
+}
